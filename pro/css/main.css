@@ -1,0 +1,188 @@
+
+*{
+    margin: 0;
+    padding: 0;
+	list-style-type:none;
+}
+
+#con{
+    width: 1160px;
+    height: 508px;
+    border: 2px solid cornflowerblue;
+    margin: 0 auto;
+
+}
+
+#con-left{
+
+    width: 550px;
+    height: 480px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #ffff00;
+    float: left;
+}
+
+
+
+#con-right{
+    width: 550px;
+    height: 480px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: aquamarine;
+    float: right;
+}
+
+
+
+#left-1,#left-2,#left-3,#left-4,#right-1,#right-2,#right-3,#right-4{
+    width: 550px;
+    height: 50px;
+}
+#left-1{
+
+    margin-top: 20px;
+
+
+}
+#left-2{
+
+    margin-top: 90px;
+
+}
+#left-3{
+
+    margin-top: 160px;
+
+}
+
+#left-4{
+
+    margin-top: 230px;
+
+}
+
+#right-1{
+
+    margin-top: 20px;
+
+}
+
+#right-2{
+
+    margin-top: 90px;
+}
+
+#right-3{
+
+    margin-top: 160px;
+}
+
+#right-4{
+
+    margin-top: 230px;
+}
+
+
+
+/*nav导航盒子*/
+div.nav{
+    width: 100%;
+    height:100%;
+    line-height: 50px;
+
+    cursor: pointer;
+    position: absolute;
+    background: red;
+	margin:0 auto;
+
+}
+
+/*nav-main*/
+ul.nav-main{
+    width: 550px;
+    height: 50px;
+
+    list-style-type: none;
+    position: absolute;
+
+}
+
+ul.nav-main li{
+    margin-left: 20px;
+
+}
+
+ul.nav-main span{
+    display: inline-block;
+    width: 10px;
+    height: 7px;
+    background: url('../img/down-icon.png') no-repeat;
+    float: right;
+    margin-right: 20px;
+    margin-top: 23px;
+}
+/*图标向上旋转*/
+.hover-up{
+    transition-duration: .5s;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+/*图标向下旋转*/
+.hover-down{
+    transition-duration: .5s;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+}
+/*导航条设置
+ul.nav-main.li{
+    width: 550px;
+    height: 50px;
+    float: left;
+    background: #643519;
+    color: #fff;
+    cursor: pointer;
+
+
+}
+*/
+ul.nav-main.li:hover{
+    background: #643519;
+
+}
+/*隐藏盒子设置*/
+div.hidden-box{
+    width: 548px;
+    border: 1px solid red;
+    border-top: 0;
+    display:none;
+	background:#fff;
+    top: 50px;
+    position:relative; z-index:9999;
+}
+.hidden-box.ul {
+    list-style-type: none;
+    color: #643519;
+    cursor: pointer;
+}
+
+.hidden-box li:hover{
+    background: #643519;
+    color: #fff;
+    margin-left: 20px;
+}
+
+/*隐藏盒子位置设置*/
+.hidden-loc-index{
+    left: 0px;
+}
+.hidden-loc-us{
+    left: 242px;
+}
+.hidden-loc-info{
+    left: 363px;
+}
+.box04{
+	left:485px;
+}
